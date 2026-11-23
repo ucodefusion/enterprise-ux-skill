@@ -38,3 +38,8 @@ Minimise total user effort, not clicks alone. Preserve safety, accessibility, pr
 - [Design system and visual consistency](11-design-tokens.md)
 - [UX performance and measurement](12-performance.md)
 - [Review checklist and acceptance criteria](13-ux-review-checklist.md)
+
+- [Complex enterprise workspace architecture](14-complex-workspace-design.md)
+
+## Complex workspace trigger
+For multi-region, nested navigation, record hubs, dense administration screens or split-pane workflows, read 14-complex-workspace-design.md before implementation. Define region ownership, navigation hierarchy, independent state, responsive collapse and action scope. Do not apply a generic dashboard layout blindly.

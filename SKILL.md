@@ -5,7 +5,7 @@ description: Design, implement, and review enterprise SaaS, CRM, ERP and admin i
 # Enterprise UX skill
 
 ## Objective
-Minimise total user effort, not clicks alone. Preserve safety, accessibility, privacy, and correctness. Follow existing project design tokens and conventions unless a justified change is requested.
+Minimise total user effort, not clicks alone. Preserve safety, accessibility, privacy, and correctness. Follow the mandatory canonical visual standard below. Preserve existing functionality and safety; explicitly surface conflicting project branding requirements.
 
 ## Workflow
 1. Inspect existing screens, components, project instructions, and task constraints. Identify user role, task frequency, data size, and risk.
@@ -43,3 +43,6 @@ Minimise total user effort, not clicks alone. Preserve safety, accessibility, pr
 
 ## Complex workspace trigger
 For multi-region, nested navigation, record hubs, dense administration screens or split-pane workflows, read 14-complex-workspace-design.md before implementation. Define region ownership, navigation hierarchy, independent state, responsive collapse and action scope. Do not apply a generic dashboard layout blindly.
+
+## Mandatory visual fidelity — read first
+Every invocation of this skill for UI work MUST read [15-canonical-visual-standard.md](15-canonical-visual-standard.md) and [examples/enterprise-workbench.html](examples/enterprise-workbench.html) before designing or coding. The HTML is the canonical source of truth for colors, typography, spacing, icons, controls and layout composition. It takes precedence over generic visual suggestions in other references. Match its styles exactly for applicable components; adapt business content and behavior only. Do not silently substitute other themes. Preserve accessibility, security and functional correctness, documenting necessary exceptions.
